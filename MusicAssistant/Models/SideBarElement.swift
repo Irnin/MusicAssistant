@@ -8,13 +8,13 @@
 import Foundation
 
 enum SideBarElement: Identifiable, CaseIterable, Hashable {
-    case random16thNotes
+    case randomGhostNotes
     case metronome
     
     var id: String {
         switch self {
-        case .random16thNotes:
-            "random16thNotes"
+        case .randomGhostNotes:
+            "randomGhostNotes"
         case .metronome:
             "metronome"
         }
@@ -22,8 +22,8 @@ enum SideBarElement: Identifiable, CaseIterable, Hashable {
     
     var displayName: String {
         switch self {
-        case .random16thNotes:
-            "Random 16th notes"
+        case .randomGhostNotes:
+            "Random ghost notes"
         case .metronome:
             "Metronome"
         }
@@ -31,7 +31,7 @@ enum SideBarElement: Identifiable, CaseIterable, Hashable {
     
     var iconName: String {
         switch self {
-        case .random16thNotes:
+        case .randomGhostNotes:
             "music.note.list"
         case .metronome:
             "metronome"
@@ -39,7 +39,7 @@ enum SideBarElement: Identifiable, CaseIterable, Hashable {
     }
     
     static var allCases: [SideBarElement] {
-        [.random16thNotes, .metronome]
+        [.randomGhostNotes, .metronome]
     }
     
     static func == (lhs: SideBarElement, rhs: SideBarElement) -> Bool {

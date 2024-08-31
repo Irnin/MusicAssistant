@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: SideBarElement = SideBarElement.metronome
+    @State private var selection: SideBarElement = SideBarElement.randomGhostNotes
     
     var body: some View {
         VStack {
             NavigationSplitView {
                 SidebarView(selection: $selection)
             } detail: {
-                Text(selection.displayName)
+                switch selection {
+                case .randomGhostNotes:
+                    RandomGhostNotesView()
+                case .metronome:
+                    Text("Metronome will be here soon :>")
+                }
             }
         }
     }

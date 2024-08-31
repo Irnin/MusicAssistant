@@ -13,6 +13,9 @@
 		820630822C828AE800509339 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820630812C828AE800509339 /* Preview Assets.xcassets */; };
 		8206308A2C828B2B00509339 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820630892C828B2B00509339 /* SidebarView.swift */; };
 		8206308E2C828BC900509339 /* SideBarElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8206308D2C828BC900509339 /* SideBarElement.swift */; };
+		820630902C82912700509339 /* RandomGhostNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8206308F2C82912700509339 /* RandomGhostNotesView.swift */; };
+		820630922C82916500509339 /* RandomGhostNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820630912C82916500509339 /* RandomGhostNotes.swift */; };
+		820630942C82940900509339 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820630932C82940900509339 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		820630832C828AE800509339 /* MusicAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicAssistant.entitlements; sourceTree = "<group>"; };
 		820630892C828B2B00509339 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		8206308D2C828BC900509339 /* SideBarElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarElement.swift; sourceTree = "<group>"; };
+		8206308F2C82912700509339 /* RandomGhostNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGhostNotesView.swift; sourceTree = "<group>"; };
+		820630912C82916500509339 /* RandomGhostNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGhostNotes.swift; sourceTree = "<group>"; };
+		820630932C82940900509339 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				8206308D2C828BC900509339 /* SideBarElement.swift */,
+				820630912C82916500509339 /* RandomGhostNotes.swift */,
+				820630932C82940900509339 /* Note.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 			children = (
 				820630892C828B2B00509339 /* SidebarView.swift */,
 				8206307C2C828AE600509339 /* ContentView.swift */,
+				8206308F2C82912700509339 /* RandomGhostNotesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8206307D2C828AE600509339 /* ContentView.swift in Sources */,
+				820630922C82916500509339 /* RandomGhostNotes.swift in Sources */,
+				820630942C82940900509339 /* Note.swift in Sources */,
 				8206307B2C828AE600509339 /* MusicAssistantApp.swift in Sources */,
+				820630902C82912700509339 /* RandomGhostNotesView.swift in Sources */,
 				8206308A2C828B2B00509339 /* SidebarView.swift in Sources */,
 				8206308E2C828BC900509339 /* SideBarElement.swift in Sources */,
 			);
